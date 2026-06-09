@@ -375,6 +375,137 @@ function App() {
     });
   }, [text]);
 
+  const flatTokens = useMemo(() => {
+    const tokens = [];
+    paragraphsData.forEach((p, idx) => {
+      if (idx > 0) {
+        tokens.push({ text: '\n', isWord: false, wordIdx: null });
+      }
+      p.tokens.forEach(t => {
+        tokens.push(t);
+      });
+    });
+    return tokens;
+  }, [paragraphsData]);
+
+  const hasSpeechSupport = useMemo(() => {
+    return typeof window !== 'undefined' && 'speechSynthesis' in window;
+  }, []);
+
+  const synthRef = useRef(typeof window !== 'undefined' ? window.speechSynthesis : null);
+  const utteranceRef = useRef(null);
+
+  // Refs for tracking state inside browser speech events without triggering dependency updates
+  const activeWordIdxRef = useRef(activeWordIdx);
+  useEffect(() => {
+    activeWordIdxRef.current = activeWordIdx;
+  }, [activeWordIdx]);
+
+  const wpmRef = useRef(wpm);
+  useEffect(() => {
+    wpmRef.current = wpm;
+  }, [wpm]);
+
+  const volumeRef = useRef(volume);
+  useEffect(() => {
+    volumeRef.current = volume;
+  }, [volume]);
+
+  const isMutedRef = useRef(isMuted);
+  useEffect(() => {
+    isMutedRef.current = isMuted;
+  }, [isMuted]);
+
+  const startBrowserSpeech = () => {
+    if (!synthRef.current) return;
+    
+    synthRef.current.cancel();
+
+    const currentWordIdx = activeWordIdxRef.current;
+    const activeTokenIndex = flatTokens.findIndex(t => t.isWord && t.wordIdx === currentWordIdx);
+    const startIdx = activeTokenIndex !== -1 ? activeTokenIndex : 0;
+    
+    const tokensToSpeak = flatTokens.slice(startIdx);
+    if (tokensToSpeak.length === 0) return;
+
+    const speechString = tokensToSpeak.map(t => t.text).join('');
+
+    let currentOffset = 0;
+    const wordOffsets = [];
+    tokensToSpeak.forEach(t => {
+      const length = t.text.length;
+      if (t.isWord) {
+        wordOffsets.push({
+          wordIdx: t.wordIdx,
+          startChar: currentOffset,
+          endChar: currentOffset + length
+        });
+      }
+      currentOffset += length;
+    });
+
+    const utterance = new SpeechSynthesisUtterance(speechString);
+    utteranceRef.current = utterance;
+
+    const baseWpm = 150;
+    const rate = wpmRef.current / baseWpm;
+    utterance.rate = Math.min(2.5, Math.max(0.5, rate));
+    utterance.volume = isMutedRef.current ? 0 : volumeRef.current;
+
+    utterance.onboundary = (event) => {
+      if (event.name === 'word') {
+        const charIndex = event.charIndex;
+        const matchingWord = wordOffsets.find(w => charIndex >= w.startChar && charIndex < w.endChar);
+        if (matchingWord) {
+          activeWordIdxRef.current = matchingWord.wordIdx;
+          setActiveWordIdx(matchingWord.wordIdx);
+        }
+      }
+    };
+
+    utterance.onend = () => {
+      setIsPlaying(false);
+    };
+
+    utterance.onerror = (err) => {
+      if (err.error !== 'interrupted') {
+        console.error("SpeechSynthesisUtterance error", err);
+        setIsPlaying(false);
+      }
+    };
+
+    synthRef.current.speak(utterance);
+  };
+
+  const stopBrowserSpeech = () => {
+    if (synthRef.current) {
+      synthRef.current.cancel();
+    }
+  };
+
+  // Browser Speech start/stop trigger
+  useEffect(() => {
+    if (!audioMetadata) {
+      if (isPlaying) {
+        startBrowserSpeech();
+      } else {
+        stopBrowserSpeech();
+      }
+    }
+    return () => {
+      if (!audioMetadata) {
+        stopBrowserSpeech();
+      }
+    };
+  }, [isPlaying, audioMetadata]);
+
+  // Adjust parameters dynamically during playback
+  useEffect(() => {
+    if (isPlaying && !audioMetadata) {
+      startBrowserSpeech();
+    }
+  }, [wpm, volume, isMuted]);
+
   const totalWords = useMemo(() => {
     let count = 0;
     paragraphsData.forEach(p => {
@@ -395,8 +526,8 @@ function App() {
   // --- Autoplay Scroller Logic ---
   useEffect(() => {
     if (isPlaying) {
-      if (audioMetadata) {
-        return; // Handled by audio synchronization loop
+      if (audioMetadata || hasSpeechSupport) {
+        return; // Handled by audio or speech synthesis synchronization
       }
       const intervalMs = (60 * 1000) / wpm;
       playTimerRef.current = setInterval(() => {
@@ -419,7 +550,7 @@ function App() {
         clearInterval(playTimerRef.current);
       }
     };
-  }, [isPlaying, wpm, totalWords, audioMetadata]);
+  }, [isPlaying, wpm, totalWords, audioMetadata, hasSpeechSupport]);
 
   // --- Active Word Visibility & Auto-Scroll Logic ---
   useEffect(() => {
@@ -1036,10 +1167,16 @@ function App() {
           </div>
 
           <div className="top-bar-right">
-            {audioMetadata && (
+            {audioMetadata ? (
               <div className="stats-badge" style={{ backgroundColor: 'var(--accent)', color: 'white', display: 'flex', alignItems: 'center', gap: '4px', fontWeight: 600 }}>
                 <span>🔊 Neural Voice</span>
               </div>
+            ) : (
+              hasSpeechSupport && (
+                <div className="stats-badge" style={{ backgroundColor: 'var(--accent)', color: 'white', display: 'flex', alignItems: 'center', gap: '4px', fontWeight: 600 }}>
+                  <span>🔊 System Voice</span>
+                </div>
+              )
             )}
             {totalWords > 0 && (
               <>
@@ -1188,10 +1325,10 @@ function App() {
               </button>
             </div>
             
-            {audioMetadata && (
+            {(audioMetadata || hasSpeechSupport) && (
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px', borderLeft: '1px solid var(--border)', paddingLeft: '16px', marginLeft: '12px' }}>
                 <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
-                  Voice: <strong>{activeDocId === 'sample-1' ? 'Christopher (Neural)' : activeDocId === 'sample-2' ? 'Emma (Neural)' : 'Guy (Neural)'}</strong>
+                  Voice: <strong>{audioMetadata ? (activeDocId === 'sample-1' ? 'Christopher (Neural)' : activeDocId === 'sample-2' ? 'Emma (Neural)' : 'Guy (Neural)') : 'System TTS'}</strong>
                 </span>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                   <button 
