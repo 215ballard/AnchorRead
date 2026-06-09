@@ -18,7 +18,9 @@ import {
   Plus,
   Minus,
   Trash2,
-  RefreshCw
+  RefreshCw,
+  Volume2,
+  VolumeX
 } from 'lucide-react';
 import './App.css';
 
@@ -166,10 +168,91 @@ function App() {
     return saved ? parseInt(saved, 10) : 110;
   });
 
+  // --- Audio Sync & Metadata States ---
+  const [audioMetadata, setAudioMetadata] = useState(null);
+  const audioRef = useRef(null);
+  const [volume, setVolume] = useState(1.0);
+  const [isMuted, setIsMuted] = useState(false);
+
+  // Sync volume and mute state to audio element
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.volume = isMuted ? 0 : volume;
+    }
+  }, [volume, isMuted]);
+
   // --- Refs ---
   const playTimerRef = useRef(null);
   const readingContainerRef = useRef(null);
   const prevActiveDocIdRef = useRef(activeDocId);
+
+  // Fetch audio word boundaries metadata when document changes
+  useEffect(() => {
+    if (['sample-1', 'sample-2', 'sample-3'].includes(activeDocId)) {
+      fetch(`/audio/${activeDocId}.json`)
+        .then(res => {
+          if (!res.ok) throw new Error("Metadata file not found");
+          return res.json();
+        })
+        .then(data => {
+          setAudioMetadata(data);
+        })
+        .catch(err => {
+          console.error("Failed to load audio metadata", err);
+          setAudioMetadata(null);
+        });
+    } else {
+      setAudioMetadata(null);
+    }
+  }, [activeDocId]);
+
+  // Audio Play/Pause and high-frequency sync loop
+  useEffect(() => {
+    let timer;
+    if (isPlaying && audioMetadata && audioRef.current) {
+      audioRef.current.play().catch(err => {
+        console.error("Audio play failed", err);
+        setIsPlaying(false);
+      });
+      
+      timer = setInterval(() => {
+        if (audioRef.current) {
+          const currentTimeMs = audioRef.current.currentTime * 1000;
+          const activeIdx = audioMetadata.findIndex(
+            w => currentTimeMs >= w.start_time_ms && currentTimeMs <= w.end_time_ms
+          );
+          if (activeIdx !== -1) {
+            setActiveWordIdx(activeIdx);
+          }
+        }
+      }, 30);
+    } else {
+      if (audioRef.current && !audioRef.current.paused) {
+         audioRef.current.pause();
+      }
+    }
+    return () => clearInterval(timer);
+  }, [isPlaying, audioMetadata]);
+
+  // Sync manual word highlights back to the audio current play time
+  useEffect(() => {
+    if (audioRef.current && audioMetadata && activeWordIdx < audioMetadata.length) {
+      const targetWord = audioMetadata[activeWordIdx];
+      const currentTimeMs = audioRef.current.currentTime * 1000;
+      if (currentTimeMs < targetWord.start_time_ms || currentTimeMs > targetWord.end_time_ms) {
+        audioRef.current.currentTime = targetWord.start_time_ms / 1000;
+      }
+    }
+  }, [activeWordIdx, audioMetadata]);
+
+  // Map WPM slider speed to audio playbackRate
+  useEffect(() => {
+    if (audioRef.current) {
+      const baseWpm = 150;
+      const rate = wpm / baseWpm;
+      audioRef.current.playbackRate = Math.min(2.5, Math.max(0.5, rate));
+    }
+  }, [wpm]);
 
   // --- Sync State to LocalStorage ---
   useEffect(() => {
@@ -312,6 +395,9 @@ function App() {
   // --- Autoplay Scroller Logic ---
   useEffect(() => {
     if (isPlaying) {
+      if (audioMetadata) {
+        return; // Handled by audio synchronization loop
+      }
       const intervalMs = (60 * 1000) / wpm;
       playTimerRef.current = setInterval(() => {
         setActiveWordIdx(prev => {
@@ -333,7 +419,7 @@ function App() {
         clearInterval(playTimerRef.current);
       }
     };
-  }, [isPlaying, wpm, totalWords]);
+  }, [isPlaying, wpm, totalWords, audioMetadata]);
 
   // --- Active Word Visibility & Auto-Scroll Logic ---
   useEffect(() => {
@@ -902,6 +988,12 @@ function App() {
 
       {/* Main Workspace */}
       <main className="main-content">
+        <audio 
+          ref={audioRef}
+          src={audioMetadata ? `/audio/${activeDocId}.mp3` : undefined}
+          onEnded={() => setIsPlaying(false)}
+        />
+        
         {/* Top Control Bar */}
         <header className="top-bar">
           <div className="top-bar-left">
@@ -944,6 +1036,11 @@ function App() {
           </div>
 
           <div className="top-bar-right">
+            {audioMetadata && (
+              <div className="stats-badge" style={{ backgroundColor: 'var(--accent)', color: 'white', display: 'flex', alignItems: 'center', gap: '4px', fontWeight: 600 }}>
+                <span>🔊 Neural Voice</span>
+              </div>
+            )}
             {totalWords > 0 && (
               <>
                 <div className="stats-badge">
@@ -1090,6 +1187,36 @@ function App() {
                 <Plus size={12} />
               </button>
             </div>
+            
+            {audioMetadata && (
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', borderLeft: '1px solid var(--border)', paddingLeft: '16px', marginLeft: '12px' }}>
+                <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                  Voice: <strong>{activeDocId === 'sample-1' ? 'Christopher (Neural)' : activeDocId === 'sample-2' ? 'Emma (Neural)' : 'Guy (Neural)'}</strong>
+                </span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  <button 
+                    className="btn-icon-only" 
+                    onClick={() => setIsMuted(!isMuted)} 
+                    title={isMuted ? "Unmute" : "Mute"}
+                    style={{ padding: '4px', display: 'inline-flex', alignItems: 'center' }}
+                  >
+                    {isMuted ? <VolumeX size={14} /> : <Volume2 size={14} />}
+                  </button>
+                  <input 
+                    type="range" 
+                    min="0" 
+                    max="1" 
+                    step="0.05" 
+                    value={volume} 
+                    onChange={(e) => {
+                      setVolume(parseFloat(e.target.value));
+                      setIsMuted(false);
+                    }}
+                    style={{ width: '60px', height: '4px', cursor: 'pointer' }}
+                  />
+                </div>
+              </div>
+            )}
           </div>
 
           {totalWords > 0 && (

@@ -1,0 +1,1118 @@
+[
+  {
+    "word": "Clean",
+    "start_time_ms": 100.0,
+    "duration_ms": 287.5,
+    "end_time_ms": 387.5
+  },
+  {
+    "word": "code",
+    "start_time_ms": 400.0,
+    "duration_ms": 225.0,
+    "end_time_ms": 625.0
+  },
+  {
+    "word": "is",
+    "start_time_ms": 637.5,
+    "duration_ms": 112.5,
+    "end_time_ms": 750.0
+  },
+  {
+    "word": "code",
+    "start_time_ms": 775.0,
+    "duration_ms": 275.0,
+    "end_time_ms": 1050.0
+  },
+  {
+    "word": "that",
+    "start_time_ms": 1075.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 1187.5
+  },
+  {
+    "word": "is",
+    "start_time_ms": 1200.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 1312.5
+  },
+  {
+    "word": "easy",
+    "start_time_ms": 1337.5,
+    "duration_ms": 262.5,
+    "end_time_ms": 1600.0
+  },
+  {
+    "word": "to",
+    "start_time_ms": 1625.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 1737.5
+  },
+  {
+    "word": "understand",
+    "start_time_ms": 1750.0,
+    "duration_ms": 562.5,
+    "end_time_ms": 2312.5
+  },
+  {
+    "word": "and",
+    "start_time_ms": 2325.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 2425.0
+  },
+  {
+    "word": "easy",
+    "start_time_ms": 2450.0,
+    "duration_ms": 237.5,
+    "end_time_ms": 2687.5
+  },
+  {
+    "word": "to",
+    "start_time_ms": 2712.5,
+    "duration_ms": 75.0,
+    "end_time_ms": 2787.5
+  },
+  {
+    "word": "change",
+    "start_time_ms": 2812.5,
+    "duration_ms": 500.0,
+    "end_time_ms": 3312.5
+  },
+  {
+    "word": "Software",
+    "start_time_ms": 4175.0,
+    "duration_ms": 525.0,
+    "end_time_ms": 4700.0
+  },
+  {
+    "word": "engineering",
+    "start_time_ms": 4725.0,
+    "duration_ms": 562.5,
+    "end_time_ms": 5287.5
+  },
+  {
+    "word": "is",
+    "start_time_ms": 5300.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 5400.0
+  },
+  {
+    "word": "a",
+    "start_time_ms": 5425.0,
+    "duration_ms": 62.5,
+    "end_time_ms": 5487.5
+  },
+  {
+    "word": "social",
+    "start_time_ms": 5512.5,
+    "duration_ms": 362.5,
+    "end_time_ms": 5875.0
+  },
+  {
+    "word": "activity",
+    "start_time_ms": 5900.0,
+    "duration_ms": 487.5,
+    "end_time_ms": 6387.5
+  },
+  {
+    "word": "we",
+    "start_time_ms": 6662.5,
+    "duration_ms": 125.0,
+    "end_time_ms": 6787.5
+  },
+  {
+    "word": "write",
+    "start_time_ms": 6812.5,
+    "duration_ms": 212.5,
+    "end_time_ms": 7025.0
+  },
+  {
+    "word": "code",
+    "start_time_ms": 7050.0,
+    "duration_ms": 212.5,
+    "end_time_ms": 7262.5
+  },
+  {
+    "word": "for",
+    "start_time_ms": 7287.5,
+    "duration_ms": 125.0,
+    "end_time_ms": 7412.5
+  },
+  {
+    "word": "machines",
+    "start_time_ms": 7425.0,
+    "duration_ms": 362.5,
+    "end_time_ms": 7787.5
+  },
+  {
+    "word": "to",
+    "start_time_ms": 7812.5,
+    "duration_ms": 112.5,
+    "end_time_ms": 7925.0
+  },
+  {
+    "word": "execute",
+    "start_time_ms": 7950.0,
+    "duration_ms": 500.0,
+    "end_time_ms": 8450.0
+  },
+  {
+    "word": "but",
+    "start_time_ms": 8725.0,
+    "duration_ms": 137.5,
+    "end_time_ms": 8862.5
+  },
+  {
+    "word": "we",
+    "start_time_ms": 8887.5,
+    "duration_ms": 125.0,
+    "end_time_ms": 9012.5
+  },
+  {
+    "word": "write",
+    "start_time_ms": 9037.5,
+    "duration_ms": 200.0,
+    "end_time_ms": 9237.5
+  },
+  {
+    "word": "it",
+    "start_time_ms": 9262.5,
+    "duration_ms": 87.5,
+    "end_time_ms": 9350.0
+  },
+  {
+    "word": "primarily",
+    "start_time_ms": 9362.5,
+    "duration_ms": 575.0,
+    "end_time_ms": 9937.5
+  },
+  {
+    "word": "for",
+    "start_time_ms": 9962.5,
+    "duration_ms": 187.5,
+    "end_time_ms": 10150.0
+  },
+  {
+    "word": "other",
+    "start_time_ms": 10175.0,
+    "duration_ms": 200.0,
+    "end_time_ms": 10375.0
+  },
+  {
+    "word": "humans",
+    "start_time_ms": 10400.0,
+    "duration_ms": 375.0,
+    "end_time_ms": 10775.0
+  },
+  {
+    "word": "to",
+    "start_time_ms": 10800.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 10912.5
+  },
+  {
+    "word": "read",
+    "start_time_ms": 10925.0,
+    "duration_ms": 287.5,
+    "end_time_ms": 11212.5
+  },
+  {
+    "word": "maintain",
+    "start_time_ms": 11375.0,
+    "duration_ms": 550.0,
+    "end_time_ms": 11925.0
+  },
+  {
+    "word": "and",
+    "start_time_ms": 12087.5,
+    "duration_ms": 112.5,
+    "end_time_ms": 12200.0
+  },
+  {
+    "word": "build",
+    "start_time_ms": 12225.0,
+    "duration_ms": 237.5,
+    "end_time_ms": 12462.5
+  },
+  {
+    "word": "upon",
+    "start_time_ms": 12487.5,
+    "duration_ms": 387.5,
+    "end_time_ms": 12875.0
+  },
+  {
+    "word": "Indeed",
+    "start_time_ms": 13762.5,
+    "duration_ms": 450.0,
+    "end_time_ms": 14212.5
+  },
+  {
+    "word": "research",
+    "start_time_ms": 14412.5,
+    "duration_ms": 337.5,
+    "end_time_ms": 14750.0
+  },
+  {
+    "word": "shows",
+    "start_time_ms": 14775.0,
+    "duration_ms": 287.5,
+    "end_time_ms": 15062.5
+  },
+  {
+    "word": "that",
+    "start_time_ms": 15087.5,
+    "duration_ms": 125.0,
+    "end_time_ms": 15212.5
+  },
+  {
+    "word": "the",
+    "start_time_ms": 15237.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 15337.5
+  },
+  {
+    "word": "ratio",
+    "start_time_ms": 15362.5,
+    "duration_ms": 400.0,
+    "end_time_ms": 15762.5
+  },
+  {
+    "word": "of",
+    "start_time_ms": 15787.5,
+    "duration_ms": 87.5,
+    "end_time_ms": 15875.0
+  },
+  {
+    "word": "time",
+    "start_time_ms": 15900.0,
+    "duration_ms": 275.0,
+    "end_time_ms": 16175.0
+  },
+  {
+    "word": "spent",
+    "start_time_ms": 16200.0,
+    "duration_ms": 275.0,
+    "end_time_ms": 16475.0
+  },
+  {
+    "word": "reading",
+    "start_time_ms": 16500.0,
+    "duration_ms": 300.0,
+    "end_time_ms": 16800.0
+  },
+  {
+    "word": "code",
+    "start_time_ms": 16825.0,
+    "duration_ms": 225.0,
+    "end_time_ms": 17050.0
+  },
+  {
+    "word": "versus",
+    "start_time_ms": 17075.0,
+    "duration_ms": 362.5,
+    "end_time_ms": 17437.5
+  },
+  {
+    "word": "writing",
+    "start_time_ms": 17462.5,
+    "duration_ms": 300.0,
+    "end_time_ms": 17762.5
+  },
+  {
+    "word": "code",
+    "start_time_ms": 17787.5,
+    "duration_ms": 225.0,
+    "end_time_ms": 18012.5
+  },
+  {
+    "word": "is",
+    "start_time_ms": 18037.5,
+    "duration_ms": 125.0,
+    "end_time_ms": 18162.5
+  },
+  {
+    "word": "over",
+    "start_time_ms": 18187.5,
+    "duration_ms": 187.5,
+    "end_time_ms": 18375.0
+  },
+  {
+    "word": "ten",
+    "start_time_ms": 18400.0,
+    "duration_ms": 187.5,
+    "end_time_ms": 18587.5
+  },
+  {
+    "word": "to",
+    "start_time_ms": 18612.5,
+    "duration_ms": 87.5,
+    "end_time_ms": 18700.0
+  },
+  {
+    "word": "one",
+    "start_time_ms": 18725.0,
+    "duration_ms": 312.5,
+    "end_time_ms": 19037.5
+  },
+  {
+    "word": "When",
+    "start_time_ms": 19925.0,
+    "duration_ms": 187.5,
+    "end_time_ms": 20112.5
+  },
+  {
+    "word": "software",
+    "start_time_ms": 20137.5,
+    "duration_ms": 437.5,
+    "end_time_ms": 20575.0
+  },
+  {
+    "word": "developers",
+    "start_time_ms": 20600.0,
+    "duration_ms": 587.5,
+    "end_time_ms": 21187.5
+  },
+  {
+    "word": "write",
+    "start_time_ms": 21212.5,
+    "duration_ms": 212.5,
+    "end_time_ms": 21425.0
+  },
+  {
+    "word": "code",
+    "start_time_ms": 21450.0,
+    "duration_ms": 262.5,
+    "end_time_ms": 21712.5
+  },
+  {
+    "word": "they",
+    "start_time_ms": 21925.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 22050.0
+  },
+  {
+    "word": "must",
+    "start_time_ms": 22062.5,
+    "duration_ms": 262.5,
+    "end_time_ms": 22325.0
+  },
+  {
+    "word": "manage",
+    "start_time_ms": 22350.0,
+    "duration_ms": 337.5,
+    "end_time_ms": 22687.5
+  },
+  {
+    "word": "cognitive",
+    "start_time_ms": 22712.5,
+    "duration_ms": 500.0,
+    "end_time_ms": 23212.5
+  },
+  {
+    "word": "load",
+    "start_time_ms": 23237.5,
+    "duration_ms": 387.5,
+    "end_time_ms": 23625.0
+  },
+  {
+    "word": "A",
+    "start_time_ms": 24500.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 24625.0
+  },
+  {
+    "word": "clean",
+    "start_time_ms": 24637.5,
+    "duration_ms": 275.0,
+    "end_time_ms": 24912.5
+  },
+  {
+    "word": "architecture",
+    "start_time_ms": 24937.5,
+    "duration_ms": 587.5,
+    "end_time_ms": 25525.0
+  },
+  {
+    "word": "manages",
+    "start_time_ms": 25537.5,
+    "duration_ms": 462.5,
+    "end_time_ms": 26000.0
+  },
+  {
+    "word": "this",
+    "start_time_ms": 26025.0,
+    "duration_ms": 187.5,
+    "end_time_ms": 26212.5
+  },
+  {
+    "word": "load",
+    "start_time_ms": 26237.5,
+    "duration_ms": 262.5,
+    "end_time_ms": 26500.0
+  },
+  {
+    "word": "by",
+    "start_time_ms": 26525.0,
+    "duration_ms": 137.5,
+    "end_time_ms": 26662.5
+  },
+  {
+    "word": "separating",
+    "start_time_ms": 26687.5,
+    "duration_ms": 625.0,
+    "end_time_ms": 27312.5
+  },
+  {
+    "word": "concerns",
+    "start_time_ms": 27337.5,
+    "duration_ms": 550.0,
+    "end_time_ms": 27887.5
+  },
+  {
+    "word": "into",
+    "start_time_ms": 27912.5,
+    "duration_ms": 200.0,
+    "end_time_ms": 28112.5
+  },
+  {
+    "word": "distinct",
+    "start_time_ms": 28137.5,
+    "duration_ms": 450.0,
+    "end_time_ms": 28587.5
+  },
+  {
+    "word": "layers",
+    "start_time_ms": 28612.5,
+    "duration_ms": 450.0,
+    "end_time_ms": 29062.5
+  },
+  {
+    "word": "Each",
+    "start_time_ms": 29937.5,
+    "duration_ms": 250.0,
+    "end_time_ms": 30187.5
+  },
+  {
+    "word": "module",
+    "start_time_ms": 30212.5,
+    "duration_ms": 412.5,
+    "end_time_ms": 30625.0
+  },
+  {
+    "word": "or",
+    "start_time_ms": 30650.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 30750.0
+  },
+  {
+    "word": "class",
+    "start_time_ms": 30775.0,
+    "duration_ms": 312.5,
+    "end_time_ms": 31087.5
+  },
+  {
+    "word": "should",
+    "start_time_ms": 31112.5,
+    "duration_ms": 150.0,
+    "end_time_ms": 31262.5
+  },
+  {
+    "word": "have",
+    "start_time_ms": 31287.5,
+    "duration_ms": 150.0,
+    "end_time_ms": 31437.5
+  },
+  {
+    "word": "a",
+    "start_time_ms": 31450.0,
+    "duration_ms": 62.5,
+    "end_time_ms": 31512.5
+  },
+  {
+    "word": "single",
+    "start_time_ms": 31525.0,
+    "duration_ms": 350.0,
+    "end_time_ms": 31875.0
+  },
+  {
+    "word": "responsibility",
+    "start_time_ms": 31900.0,
+    "duration_ms": 912.5,
+    "end_time_ms": 32812.5
+  },
+  {
+    "word": "a",
+    "start_time_ms": 32925.0,
+    "duration_ms": 62.5,
+    "end_time_ms": 32987.5
+  },
+  {
+    "word": "single",
+    "start_time_ms": 33000.0,
+    "duration_ms": 362.5,
+    "end_time_ms": 33362.5
+  },
+  {
+    "word": "reason",
+    "start_time_ms": 33387.5,
+    "duration_ms": 287.5,
+    "end_time_ms": 33675.0
+  },
+  {
+    "word": "to",
+    "start_time_ms": 33700.0,
+    "duration_ms": 87.5,
+    "end_time_ms": 33787.5
+  },
+  {
+    "word": "change",
+    "start_time_ms": 33800.0,
+    "duration_ms": 500.0,
+    "end_time_ms": 34300.0
+  },
+  {
+    "word": "If",
+    "start_time_ms": 35162.5,
+    "duration_ms": 162.5,
+    "end_time_ms": 35325.0
+  },
+  {
+    "word": "a",
+    "start_time_ms": 35350.0,
+    "duration_ms": 62.5,
+    "end_time_ms": 35412.5
+  },
+  {
+    "word": "module",
+    "start_time_ms": 35437.5,
+    "duration_ms": 375.0,
+    "end_time_ms": 35812.5
+  },
+  {
+    "word": "performs",
+    "start_time_ms": 35837.5,
+    "duration_ms": 475.0,
+    "end_time_ms": 36312.5
+  },
+  {
+    "word": "multiple",
+    "start_time_ms": 36337.5,
+    "duration_ms": 450.0,
+    "end_time_ms": 36787.5
+  },
+  {
+    "word": "tasks",
+    "start_time_ms": 36812.5,
+    "duration_ms": 437.5,
+    "end_time_ms": 37250.0
+  },
+  {
+    "word": "it",
+    "start_time_ms": 37387.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 37487.5
+  },
+  {
+    "word": "becomes",
+    "start_time_ms": 37500.0,
+    "duration_ms": 375.0,
+    "end_time_ms": 37875.0
+  },
+  {
+    "word": "coupled",
+    "start_time_ms": 37900.0,
+    "duration_ms": 387.5,
+    "end_time_ms": 38287.5
+  },
+  {
+    "word": "making",
+    "start_time_ms": 38475.0,
+    "duration_ms": 337.5,
+    "end_time_ms": 38812.5
+  },
+  {
+    "word": "it",
+    "start_time_ms": 38837.5,
+    "duration_ms": 112.5,
+    "end_time_ms": 38950.0
+  },
+  {
+    "word": "difficult",
+    "start_time_ms": 38975.0,
+    "duration_ms": 462.5,
+    "end_time_ms": 39437.5
+  },
+  {
+    "word": "to",
+    "start_time_ms": 39462.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 39562.5
+  },
+  {
+    "word": "comprehend",
+    "start_time_ms": 39587.5,
+    "duration_ms": 537.5,
+    "end_time_ms": 40125.0
+  },
+  {
+    "word": "and",
+    "start_time_ms": 40137.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 40237.5
+  },
+  {
+    "word": "prone",
+    "start_time_ms": 40262.5,
+    "duration_ms": 275.0,
+    "end_time_ms": 40537.5
+  },
+  {
+    "word": "to",
+    "start_time_ms": 40562.5,
+    "duration_ms": 137.5,
+    "end_time_ms": 40700.0
+  },
+  {
+    "word": "unexpected",
+    "start_time_ms": 40712.5,
+    "duration_ms": 612.5,
+    "end_time_ms": 41325.0
+  },
+  {
+    "word": "side-effects",
+    "start_time_ms": 41350.0,
+    "duration_ms": 662.5,
+    "end_time_ms": 42012.5
+  },
+  {
+    "word": "during",
+    "start_time_ms": 42025.0,
+    "duration_ms": 250.0,
+    "end_time_ms": 42275.0
+  },
+  {
+    "word": "modification",
+    "start_time_ms": 42300.0,
+    "duration_ms": 812.5,
+    "end_time_ms": 43112.5
+  },
+  {
+    "word": "To",
+    "start_time_ms": 44000.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 44125.0
+  },
+  {
+    "word": "improve",
+    "start_time_ms": 44137.5,
+    "duration_ms": 375.0,
+    "end_time_ms": 44512.5
+  },
+  {
+    "word": "code",
+    "start_time_ms": 44525.0,
+    "duration_ms": 225.0,
+    "end_time_ms": 44750.0
+  },
+  {
+    "word": "readability",
+    "start_time_ms": 44775.0,
+    "duration_ms": 687.5,
+    "end_time_ms": 45462.5
+  },
+  {
+    "word": "engineers",
+    "start_time_ms": 45687.5,
+    "duration_ms": 562.5,
+    "end_time_ms": 46250.0
+  },
+  {
+    "word": "should",
+    "start_time_ms": 46275.0,
+    "duration_ms": 162.5,
+    "end_time_ms": 46437.5
+  },
+  {
+    "word": "follow",
+    "start_time_ms": 46462.5,
+    "duration_ms": 287.5,
+    "end_time_ms": 46750.0
+  },
+  {
+    "word": "clean",
+    "start_time_ms": 46775.0,
+    "duration_ms": 287.5,
+    "end_time_ms": 47062.5
+  },
+  {
+    "word": "formatting",
+    "start_time_ms": 47075.0,
+    "duration_ms": 512.5,
+    "end_time_ms": 47587.5
+  },
+  {
+    "word": "conventions",
+    "start_time_ms": 47600.0,
+    "duration_ms": 737.5,
+    "end_time_ms": 48337.5
+  },
+  {
+    "word": "Use",
+    "start_time_ms": 49212.5,
+    "duration_ms": 287.5,
+    "end_time_ms": 49500.0
+  },
+  {
+    "word": "meaningful",
+    "start_time_ms": 49525.0,
+    "duration_ms": 512.5,
+    "end_time_ms": 50037.5
+  },
+  {
+    "word": "descriptive",
+    "start_time_ms": 50162.5,
+    "duration_ms": 587.5,
+    "end_time_ms": 50750.0
+  },
+  {
+    "word": "names",
+    "start_time_ms": 50762.5,
+    "duration_ms": 300.0,
+    "end_time_ms": 51062.5
+  },
+  {
+    "word": "for",
+    "start_time_ms": 51087.5,
+    "duration_ms": 150.0,
+    "end_time_ms": 51237.5
+  },
+  {
+    "word": "functions",
+    "start_time_ms": 51262.5,
+    "duration_ms": 475.0,
+    "end_time_ms": 51737.5
+  },
+  {
+    "word": "and",
+    "start_time_ms": 51762.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 51862.5
+  },
+  {
+    "word": "variables",
+    "start_time_ms": 51887.5,
+    "duration_ms": 675.0,
+    "end_time_ms": 52562.5
+  },
+  {
+    "word": "Write",
+    "start_time_ms": 53450.0,
+    "duration_ms": 275.0,
+    "end_time_ms": 53725.0
+  },
+  {
+    "word": "short",
+    "start_time_ms": 53750.0,
+    "duration_ms": 337.5,
+    "end_time_ms": 54087.5
+  },
+  {
+    "word": "focused",
+    "start_time_ms": 54287.5,
+    "duration_ms": 412.5,
+    "end_time_ms": 54700.0
+  },
+  {
+    "word": "functions",
+    "start_time_ms": 54712.5,
+    "duration_ms": 437.5,
+    "end_time_ms": 55150.0
+  },
+  {
+    "word": "that",
+    "start_time_ms": 55175.0,
+    "duration_ms": 137.5,
+    "end_time_ms": 55312.5
+  },
+  {
+    "word": "perform",
+    "start_time_ms": 55337.5,
+    "duration_ms": 425.0,
+    "end_time_ms": 55762.5
+  },
+  {
+    "word": "one",
+    "start_time_ms": 55787.5,
+    "duration_ms": 175.0,
+    "end_time_ms": 55962.5
+  },
+  {
+    "word": "operation",
+    "start_time_ms": 55987.5,
+    "duration_ms": 637.5,
+    "end_time_ms": 56625.0
+  },
+  {
+    "word": "Implement",
+    "start_time_ms": 57500.0,
+    "duration_ms": 550.0,
+    "end_time_ms": 58050.0
+  },
+  {
+    "word": "consistent",
+    "start_time_ms": 58075.0,
+    "duration_ms": 575.0,
+    "end_time_ms": 58650.0
+  },
+  {
+    "word": "spacing",
+    "start_time_ms": 58675.0,
+    "duration_ms": 475.0,
+    "end_time_ms": 59150.0
+  },
+  {
+    "word": "and",
+    "start_time_ms": 59175.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 59275.0
+  },
+  {
+    "word": "indentation",
+    "start_time_ms": 59287.5,
+    "duration_ms": 687.5,
+    "end_time_ms": 59975.0
+  },
+  {
+    "word": "to",
+    "start_time_ms": 60000.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 60112.5
+  },
+  {
+    "word": "reflect",
+    "start_time_ms": 60125.0,
+    "duration_ms": 412.5,
+    "end_time_ms": 60537.5
+  },
+  {
+    "word": "scope",
+    "start_time_ms": 60562.5,
+    "duration_ms": 412.5,
+    "end_time_ms": 60975.0
+  },
+  {
+    "word": "Write",
+    "start_time_ms": 61850.0,
+    "duration_ms": 250.0,
+    "end_time_ms": 62100.0
+  },
+  {
+    "word": "helpful",
+    "start_time_ms": 62125.0,
+    "duration_ms": 375.0,
+    "end_time_ms": 62500.0
+  },
+  {
+    "word": "comments",
+    "start_time_ms": 62525.0,
+    "duration_ms": 437.5,
+    "end_time_ms": 62962.5
+  },
+  {
+    "word": "that",
+    "start_time_ms": 62987.5,
+    "duration_ms": 137.5,
+    "end_time_ms": 63125.0
+  },
+  {
+    "word": "explain",
+    "start_time_ms": 63150.0,
+    "duration_ms": 375.0,
+    "end_time_ms": 63525.0
+  },
+  {
+    "word": "the",
+    "start_time_ms": 63550.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 63662.5
+  },
+  {
+    "word": "why",
+    "start_time_ms": 63687.5,
+    "duration_ms": 187.5,
+    "end_time_ms": 63875.0
+  },
+  {
+    "word": "rather",
+    "start_time_ms": 63900.0,
+    "duration_ms": 350.0,
+    "end_time_ms": 64250.0
+  },
+  {
+    "word": "than",
+    "start_time_ms": 64275.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 64400.0
+  },
+  {
+    "word": "the",
+    "start_time_ms": 64425.0,
+    "duration_ms": 87.5,
+    "end_time_ms": 64512.5
+  },
+  {
+    "word": "what",
+    "start_time_ms": 64537.5,
+    "duration_ms": 350.0,
+    "end_time_ms": 64887.5
+  },
+  {
+    "word": "Adhering",
+    "start_time_ms": 65775.0,
+    "duration_ms": 450.0,
+    "end_time_ms": 66225.0
+  },
+  {
+    "word": "to",
+    "start_time_ms": 66237.5,
+    "duration_ms": 87.5,
+    "end_time_ms": 66325.0
+  },
+  {
+    "word": "these",
+    "start_time_ms": 66350.0,
+    "duration_ms": 187.5,
+    "end_time_ms": 66537.5
+  },
+  {
+    "word": "clean",
+    "start_time_ms": 66550.0,
+    "duration_ms": 262.5,
+    "end_time_ms": 66812.5
+  },
+  {
+    "word": "code",
+    "start_time_ms": 66825.0,
+    "duration_ms": 237.5,
+    "end_time_ms": 67062.5
+  },
+  {
+    "word": "principles",
+    "start_time_ms": 67087.5,
+    "duration_ms": 562.5,
+    "end_time_ms": 67650.0
+  },
+  {
+    "word": "ensures",
+    "start_time_ms": 67662.5,
+    "duration_ms": 375.0,
+    "end_time_ms": 68037.5
+  },
+  {
+    "word": "that",
+    "start_time_ms": 68062.5,
+    "duration_ms": 137.5,
+    "end_time_ms": 68200.0
+  },
+  {
+    "word": "codebases",
+    "start_time_ms": 68225.0,
+    "duration_ms": 625.0,
+    "end_time_ms": 68850.0
+  },
+  {
+    "word": "remain",
+    "start_time_ms": 68875.0,
+    "duration_ms": 312.5,
+    "end_time_ms": 69187.5
+  },
+  {
+    "word": "maintainable",
+    "start_time_ms": 69200.0,
+    "duration_ms": 687.5,
+    "end_time_ms": 69887.5
+  },
+  {
+    "word": "scalable",
+    "start_time_ms": 70000.0,
+    "duration_ms": 525.0,
+    "end_time_ms": 70525.0
+  },
+  {
+    "word": "and",
+    "start_time_ms": 70700.0,
+    "duration_ms": 87.5,
+    "end_time_ms": 70787.5
+  },
+  {
+    "word": "accessible",
+    "start_time_ms": 70812.5,
+    "duration_ms": 562.5,
+    "end_time_ms": 71375.0
+  },
+  {
+    "word": "to",
+    "start_time_ms": 71400.0,
+    "duration_ms": 75.0,
+    "end_time_ms": 71475.0
+  },
+  {
+    "word": "teams",
+    "start_time_ms": 71487.5,
+    "duration_ms": 325.0,
+    "end_time_ms": 71812.5
+  },
+  {
+    "word": "of",
+    "start_time_ms": 71825.0,
+    "duration_ms": 87.5,
+    "end_time_ms": 71912.5
+  },
+  {
+    "word": "all",
+    "start_time_ms": 71937.5,
+    "duration_ms": 137.5,
+    "end_time_ms": 72075.0
+  },
+  {
+    "word": "sizes",
+    "start_time_ms": 72100.0,
+    "duration_ms": 450.0,
+    "end_time_ms": 72550.0
+  },
+  {
+    "word": "minimizing",
+    "start_time_ms": 72775.0,
+    "duration_ms": 575.0,
+    "end_time_ms": 73350.0
+  },
+  {
+    "word": "developer",
+    "start_time_ms": 73375.0,
+    "duration_ms": 512.5,
+    "end_time_ms": 73887.5
+  },
+  {
+    "word": "friction",
+    "start_time_ms": 73912.5,
+    "duration_ms": 387.5,
+    "end_time_ms": 74300.0
+  },
+  {
+    "word": "and",
+    "start_time_ms": 74325.0,
+    "duration_ms": 87.5,
+    "end_time_ms": 74412.5
+  },
+  {
+    "word": "technical",
+    "start_time_ms": 74437.5,
+    "duration_ms": 437.5,
+    "end_time_ms": 74875.0
+  },
+  {
+    "word": "debt",
+    "start_time_ms": 74900.0,
+    "duration_ms": 312.5,
+    "end_time_ms": 75212.5
+  }
+]

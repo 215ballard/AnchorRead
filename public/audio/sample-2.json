@@ -1,0 +1,1520 @@
+[
+  {
+    "word": "Alice",
+    "start_time_ms": 100.0,
+    "duration_ms": 325.0,
+    "end_time_ms": 425.0
+  },
+  {
+    "word": "was",
+    "start_time_ms": 437.5,
+    "duration_ms": 175.0,
+    "end_time_ms": 612.5
+  },
+  {
+    "word": "beginning",
+    "start_time_ms": 625.0,
+    "duration_ms": 362.5,
+    "end_time_ms": 987.5
+  },
+  {
+    "word": "to",
+    "start_time_ms": 1000.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 1112.5
+  },
+  {
+    "word": "get",
+    "start_time_ms": 1125.0,
+    "duration_ms": 162.5,
+    "end_time_ms": 1287.5
+  },
+  {
+    "word": "very",
+    "start_time_ms": 1300.0,
+    "duration_ms": 275.0,
+    "end_time_ms": 1575.0
+  },
+  {
+    "word": "tired",
+    "start_time_ms": 1587.5,
+    "duration_ms": 350.0,
+    "end_time_ms": 1937.5
+  },
+  {
+    "word": "of",
+    "start_time_ms": 1950.0,
+    "duration_ms": 87.5,
+    "end_time_ms": 2037.5
+  },
+  {
+    "word": "sitting",
+    "start_time_ms": 2050.0,
+    "duration_ms": 325.0,
+    "end_time_ms": 2375.0
+  },
+  {
+    "word": "by",
+    "start_time_ms": 2387.5,
+    "duration_ms": 150.0,
+    "end_time_ms": 2537.5
+  },
+  {
+    "word": "her",
+    "start_time_ms": 2550.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 2675.0
+  },
+  {
+    "word": "sister",
+    "start_time_ms": 2687.5,
+    "duration_ms": 387.5,
+    "end_time_ms": 3075.0
+  },
+  {
+    "word": "on",
+    "start_time_ms": 3087.5,
+    "duration_ms": 112.5,
+    "end_time_ms": 3200.0
+  },
+  {
+    "word": "the",
+    "start_time_ms": 3212.5,
+    "duration_ms": 87.5,
+    "end_time_ms": 3300.0
+  },
+  {
+    "word": "bank",
+    "start_time_ms": 3312.5,
+    "duration_ms": 412.5,
+    "end_time_ms": 3725.0
+  },
+  {
+    "word": "and",
+    "start_time_ms": 3987.5,
+    "duration_ms": 162.5,
+    "end_time_ms": 4150.0
+  },
+  {
+    "word": "of",
+    "start_time_ms": 4162.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 4262.5
+  },
+  {
+    "word": "having",
+    "start_time_ms": 4275.0,
+    "duration_ms": 287.5,
+    "end_time_ms": 4562.5
+  },
+  {
+    "word": "nothing",
+    "start_time_ms": 4575.0,
+    "duration_ms": 325.0,
+    "end_time_ms": 4900.0
+  },
+  {
+    "word": "to",
+    "start_time_ms": 4912.5,
+    "duration_ms": 125.0,
+    "end_time_ms": 5037.5
+  },
+  {
+    "word": "do",
+    "start_time_ms": 5050.0,
+    "duration_ms": 375.0,
+    "end_time_ms": 5425.0
+  },
+  {
+    "word": "once",
+    "start_time_ms": 5725.0,
+    "duration_ms": 287.5,
+    "end_time_ms": 6012.5
+  },
+  {
+    "word": "or",
+    "start_time_ms": 6025.0,
+    "duration_ms": 62.5,
+    "end_time_ms": 6087.5
+  },
+  {
+    "word": "twice",
+    "start_time_ms": 6100.0,
+    "duration_ms": 312.5,
+    "end_time_ms": 6412.5
+  },
+  {
+    "word": "she",
+    "start_time_ms": 6425.0,
+    "duration_ms": 162.5,
+    "end_time_ms": 6587.5
+  },
+  {
+    "word": "had",
+    "start_time_ms": 6600.0,
+    "duration_ms": 137.5,
+    "end_time_ms": 6737.5
+  },
+  {
+    "word": "peeped",
+    "start_time_ms": 6750.0,
+    "duration_ms": 275.0,
+    "end_time_ms": 7025.0
+  },
+  {
+    "word": "into",
+    "start_time_ms": 7037.5,
+    "duration_ms": 212.5,
+    "end_time_ms": 7250.0
+  },
+  {
+    "word": "the",
+    "start_time_ms": 7262.5,
+    "duration_ms": 112.5,
+    "end_time_ms": 7375.0
+  },
+  {
+    "word": "book",
+    "start_time_ms": 7387.5,
+    "duration_ms": 200.0,
+    "end_time_ms": 7587.5
+  },
+  {
+    "word": "her",
+    "start_time_ms": 7600.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 7700.0
+  },
+  {
+    "word": "sister",
+    "start_time_ms": 7712.5,
+    "duration_ms": 350.0,
+    "end_time_ms": 8062.5
+  },
+  {
+    "word": "was",
+    "start_time_ms": 8075.0,
+    "duration_ms": 187.5,
+    "end_time_ms": 8262.5
+  },
+  {
+    "word": "reading",
+    "start_time_ms": 8275.0,
+    "duration_ms": 437.5,
+    "end_time_ms": 8712.5
+  },
+  {
+    "word": "but",
+    "start_time_ms": 9000.0,
+    "duration_ms": 137.5,
+    "end_time_ms": 9137.5
+  },
+  {
+    "word": "it",
+    "start_time_ms": 9150.0,
+    "duration_ms": 87.5,
+    "end_time_ms": 9237.5
+  },
+  {
+    "word": "had",
+    "start_time_ms": 9250.0,
+    "duration_ms": 200.0,
+    "end_time_ms": 9450.0
+  },
+  {
+    "word": "no",
+    "start_time_ms": 9462.5,
+    "duration_ms": 162.5,
+    "end_time_ms": 9625.0
+  },
+  {
+    "word": "pictures",
+    "start_time_ms": 9637.5,
+    "duration_ms": 450.0,
+    "end_time_ms": 10087.5
+  },
+  {
+    "word": "or",
+    "start_time_ms": 10100.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 10200.0
+  },
+  {
+    "word": "conversations",
+    "start_time_ms": 10212.5,
+    "duration_ms": 787.5,
+    "end_time_ms": 11000.0
+  },
+  {
+    "word": "in",
+    "start_time_ms": 11012.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 11112.5
+  },
+  {
+    "word": "it",
+    "start_time_ms": 11125.0,
+    "duration_ms": 225.0,
+    "end_time_ms": 11350.0
+  },
+  {
+    "word": "and",
+    "start_time_ms": 11650.0,
+    "duration_ms": 175.0,
+    "end_time_ms": 11825.0
+  },
+  {
+    "word": "what",
+    "start_time_ms": 11837.5,
+    "duration_ms": 150.0,
+    "end_time_ms": 11987.5
+  },
+  {
+    "word": "is",
+    "start_time_ms": 12000.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 12125.0
+  },
+  {
+    "word": "the",
+    "start_time_ms": 12137.5,
+    "duration_ms": 75.0,
+    "end_time_ms": 12212.5
+  },
+  {
+    "word": "use",
+    "start_time_ms": 12225.0,
+    "duration_ms": 262.5,
+    "end_time_ms": 12487.5
+  },
+  {
+    "word": "of",
+    "start_time_ms": 12500.0,
+    "duration_ms": 87.5,
+    "end_time_ms": 12587.5
+  },
+  {
+    "word": "a",
+    "start_time_ms": 12600.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 12700.0
+  },
+  {
+    "word": "book",
+    "start_time_ms": 12712.5,
+    "duration_ms": 387.5,
+    "end_time_ms": 13100.0
+  },
+  {
+    "word": "thought",
+    "start_time_ms": 13137.5,
+    "duration_ms": 312.5,
+    "end_time_ms": 13450.0
+  },
+  {
+    "word": "Alice",
+    "start_time_ms": 13462.5,
+    "duration_ms": 387.5,
+    "end_time_ms": 13850.0
+  },
+  {
+    "word": "without",
+    "start_time_ms": 13875.0,
+    "duration_ms": 337.5,
+    "end_time_ms": 14212.5
+  },
+  {
+    "word": "pictures",
+    "start_time_ms": 14225.0,
+    "duration_ms": 387.5,
+    "end_time_ms": 14612.5
+  },
+  {
+    "word": "or",
+    "start_time_ms": 14625.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 14725.0
+  },
+  {
+    "word": "conversations",
+    "start_time_ms": 14737.5,
+    "duration_ms": 975.0,
+    "end_time_ms": 15712.5
+  },
+  {
+    "word": "So",
+    "start_time_ms": 16125.0,
+    "duration_ms": 200.0,
+    "end_time_ms": 16325.0
+  },
+  {
+    "word": "she",
+    "start_time_ms": 16337.5,
+    "duration_ms": 162.5,
+    "end_time_ms": 16500.0
+  },
+  {
+    "word": "was",
+    "start_time_ms": 16512.5,
+    "duration_ms": 162.5,
+    "end_time_ms": 16675.0
+  },
+  {
+    "word": "considering",
+    "start_time_ms": 16687.5,
+    "duration_ms": 550.0,
+    "end_time_ms": 17237.5
+  },
+  {
+    "word": "in",
+    "start_time_ms": 17250.0,
+    "duration_ms": 87.5,
+    "end_time_ms": 17337.5
+  },
+  {
+    "word": "her",
+    "start_time_ms": 17350.0,
+    "duration_ms": 200.0,
+    "end_time_ms": 17550.0
+  },
+  {
+    "word": "own",
+    "start_time_ms": 17562.5,
+    "duration_ms": 162.5,
+    "end_time_ms": 17725.0
+  },
+  {
+    "word": "mind",
+    "start_time_ms": 17737.5,
+    "duration_ms": 437.5,
+    "end_time_ms": 18175.0
+  },
+  {
+    "word": "as",
+    "start_time_ms": 18200.0,
+    "duration_ms": 187.5,
+    "end_time_ms": 18387.5
+  },
+  {
+    "word": "well",
+    "start_time_ms": 18400.0,
+    "duration_ms": 187.5,
+    "end_time_ms": 18587.5
+  },
+  {
+    "word": "as",
+    "start_time_ms": 18600.0,
+    "duration_ms": 75.0,
+    "end_time_ms": 18675.0
+  },
+  {
+    "word": "she",
+    "start_time_ms": 18687.5,
+    "duration_ms": 162.5,
+    "end_time_ms": 18850.0
+  },
+  {
+    "word": "could",
+    "start_time_ms": 18862.5,
+    "duration_ms": 400.0,
+    "end_time_ms": 19262.5
+  },
+  {
+    "word": "for",
+    "start_time_ms": 19525.0,
+    "duration_ms": 150.0,
+    "end_time_ms": 19675.0
+  },
+  {
+    "word": "the",
+    "start_time_ms": 19687.5,
+    "duration_ms": 87.5,
+    "end_time_ms": 19775.0
+  },
+  {
+    "word": "hot",
+    "start_time_ms": 19787.5,
+    "duration_ms": 250.0,
+    "end_time_ms": 20037.5
+  },
+  {
+    "word": "day",
+    "start_time_ms": 20050.0,
+    "duration_ms": 187.5,
+    "end_time_ms": 20237.5
+  },
+  {
+    "word": "made",
+    "start_time_ms": 20250.0,
+    "duration_ms": 162.5,
+    "end_time_ms": 20412.5
+  },
+  {
+    "word": "her",
+    "start_time_ms": 20425.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 20550.0
+  },
+  {
+    "word": "feel",
+    "start_time_ms": 20562.5,
+    "duration_ms": 225.0,
+    "end_time_ms": 20787.5
+  },
+  {
+    "word": "very",
+    "start_time_ms": 20800.0,
+    "duration_ms": 300.0,
+    "end_time_ms": 21100.0
+  },
+  {
+    "word": "sleepy",
+    "start_time_ms": 21112.5,
+    "duration_ms": 412.5,
+    "end_time_ms": 21525.0
+  },
+  {
+    "word": "and",
+    "start_time_ms": 21537.5,
+    "duration_ms": 87.5,
+    "end_time_ms": 21625.0
+  },
+  {
+    "word": "stupid",
+    "start_time_ms": 21637.5,
+    "duration_ms": 587.5,
+    "end_time_ms": 22225.0
+  },
+  {
+    "word": "whether",
+    "start_time_ms": 22562.5,
+    "duration_ms": 300.0,
+    "end_time_ms": 22862.5
+  },
+  {
+    "word": "the",
+    "start_time_ms": 22875.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 22975.0
+  },
+  {
+    "word": "pleasure",
+    "start_time_ms": 22987.5,
+    "duration_ms": 362.5,
+    "end_time_ms": 23350.0
+  },
+  {
+    "word": "of",
+    "start_time_ms": 23362.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 23462.5
+  },
+  {
+    "word": "making",
+    "start_time_ms": 23475.0,
+    "duration_ms": 325.0,
+    "end_time_ms": 23800.0
+  },
+  {
+    "word": "a",
+    "start_time_ms": 23812.5,
+    "duration_ms": 62.5,
+    "end_time_ms": 23875.0
+  },
+  {
+    "word": "daisy-chain",
+    "start_time_ms": 23887.5,
+    "duration_ms": 650.0,
+    "end_time_ms": 24537.5
+  },
+  {
+    "word": "would",
+    "start_time_ms": 24550.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 24675.0
+  },
+  {
+    "word": "be",
+    "start_time_ms": 24687.5,
+    "duration_ms": 137.5,
+    "end_time_ms": 24825.0
+  },
+  {
+    "word": "worth",
+    "start_time_ms": 24837.5,
+    "duration_ms": 237.5,
+    "end_time_ms": 25075.0
+  },
+  {
+    "word": "the",
+    "start_time_ms": 25087.5,
+    "duration_ms": 75.0,
+    "end_time_ms": 25162.5
+  },
+  {
+    "word": "trouble",
+    "start_time_ms": 25175.0,
+    "duration_ms": 350.0,
+    "end_time_ms": 25525.0
+  },
+  {
+    "word": "of",
+    "start_time_ms": 25537.5,
+    "duration_ms": 112.5,
+    "end_time_ms": 25650.0
+  },
+  {
+    "word": "getting",
+    "start_time_ms": 25662.5,
+    "duration_ms": 312.5,
+    "end_time_ms": 25975.0
+  },
+  {
+    "word": "up",
+    "start_time_ms": 25987.5,
+    "duration_ms": 150.0,
+    "end_time_ms": 26137.5
+  },
+  {
+    "word": "and",
+    "start_time_ms": 26150.0,
+    "duration_ms": 87.5,
+    "end_time_ms": 26237.5
+  },
+  {
+    "word": "picking",
+    "start_time_ms": 26250.0,
+    "duration_ms": 337.5,
+    "end_time_ms": 26587.5
+  },
+  {
+    "word": "the",
+    "start_time_ms": 26600.0,
+    "duration_ms": 87.5,
+    "end_time_ms": 26687.5
+  },
+  {
+    "word": "daisies",
+    "start_time_ms": 26700.0,
+    "duration_ms": 587.5,
+    "end_time_ms": 27287.5
+  },
+  {
+    "word": "when",
+    "start_time_ms": 27562.5,
+    "duration_ms": 187.5,
+    "end_time_ms": 27750.0
+  },
+  {
+    "word": "suddenly",
+    "start_time_ms": 27762.5,
+    "duration_ms": 400.0,
+    "end_time_ms": 28162.5
+  },
+  {
+    "word": "a",
+    "start_time_ms": 28175.0,
+    "duration_ms": 87.5,
+    "end_time_ms": 28262.5
+  },
+  {
+    "word": "White",
+    "start_time_ms": 28275.0,
+    "duration_ms": 237.5,
+    "end_time_ms": 28512.5
+  },
+  {
+    "word": "Rabbit",
+    "start_time_ms": 28525.0,
+    "duration_ms": 287.5,
+    "end_time_ms": 28812.5
+  },
+  {
+    "word": "with",
+    "start_time_ms": 28825.0,
+    "duration_ms": 162.5,
+    "end_time_ms": 28987.5
+  },
+  {
+    "word": "pink",
+    "start_time_ms": 29000.0,
+    "duration_ms": 275.0,
+    "end_time_ms": 29275.0
+  },
+  {
+    "word": "eyes",
+    "start_time_ms": 29287.5,
+    "duration_ms": 262.5,
+    "end_time_ms": 29550.0
+  },
+  {
+    "word": "ran",
+    "start_time_ms": 29562.5,
+    "duration_ms": 237.5,
+    "end_time_ms": 29800.0
+  },
+  {
+    "word": "close",
+    "start_time_ms": 29812.5,
+    "duration_ms": 325.0,
+    "end_time_ms": 30137.5
+  },
+  {
+    "word": "by",
+    "start_time_ms": 30150.0,
+    "duration_ms": 187.5,
+    "end_time_ms": 30337.5
+  },
+  {
+    "word": "her",
+    "start_time_ms": 30350.0,
+    "duration_ms": 287.5,
+    "end_time_ms": 30637.5
+  },
+  {
+    "word": "There",
+    "start_time_ms": 31037.5,
+    "duration_ms": 112.5,
+    "end_time_ms": 31150.0
+  },
+  {
+    "word": "was",
+    "start_time_ms": 31162.5,
+    "duration_ms": 162.5,
+    "end_time_ms": 31325.0
+  },
+  {
+    "word": "nothing",
+    "start_time_ms": 31337.5,
+    "duration_ms": 350.0,
+    "end_time_ms": 31687.5
+  },
+  {
+    "word": "so",
+    "start_time_ms": 31700.0,
+    "duration_ms": 162.5,
+    "end_time_ms": 31862.5
+  },
+  {
+    "word": "VERY",
+    "start_time_ms": 31875.0,
+    "duration_ms": 300.0,
+    "end_time_ms": 32175.0
+  },
+  {
+    "word": "remarkable",
+    "start_time_ms": 32187.5,
+    "duration_ms": 650.0,
+    "end_time_ms": 32837.5
+  },
+  {
+    "word": "in",
+    "start_time_ms": 32850.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 32962.5
+  },
+  {
+    "word": "that",
+    "start_time_ms": 32975.0,
+    "duration_ms": 362.5,
+    "end_time_ms": 33337.5
+  },
+  {
+    "word": "nor",
+    "start_time_ms": 33662.5,
+    "duration_ms": 237.5,
+    "end_time_ms": 33900.0
+  },
+  {
+    "word": "did",
+    "start_time_ms": 33912.5,
+    "duration_ms": 187.5,
+    "end_time_ms": 34100.0
+  },
+  {
+    "word": "Alice",
+    "start_time_ms": 34112.5,
+    "duration_ms": 362.5,
+    "end_time_ms": 34475.0
+  },
+  {
+    "word": "think",
+    "start_time_ms": 34487.5,
+    "duration_ms": 200.0,
+    "end_time_ms": 34687.5
+  },
+  {
+    "word": "it",
+    "start_time_ms": 34700.0,
+    "duration_ms": 75.0,
+    "end_time_ms": 34775.0
+  },
+  {
+    "word": "so",
+    "start_time_ms": 34787.5,
+    "duration_ms": 162.5,
+    "end_time_ms": 34950.0
+  },
+  {
+    "word": "VERY",
+    "start_time_ms": 34962.5,
+    "duration_ms": 300.0,
+    "end_time_ms": 35262.5
+  },
+  {
+    "word": "much",
+    "start_time_ms": 35275.0,
+    "duration_ms": 250.0,
+    "end_time_ms": 35525.0
+  },
+  {
+    "word": "out",
+    "start_time_ms": 35537.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 35637.5
+  },
+  {
+    "word": "of",
+    "start_time_ms": 35650.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 35750.0
+  },
+  {
+    "word": "the",
+    "start_time_ms": 35762.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 35862.5
+  },
+  {
+    "word": "way",
+    "start_time_ms": 35875.0,
+    "duration_ms": 175.0,
+    "end_time_ms": 36050.0
+  },
+  {
+    "word": "to",
+    "start_time_ms": 36062.5,
+    "duration_ms": 125.0,
+    "end_time_ms": 36187.5
+  },
+  {
+    "word": "hear",
+    "start_time_ms": 36200.0,
+    "duration_ms": 237.5,
+    "end_time_ms": 36437.5
+  },
+  {
+    "word": "the",
+    "start_time_ms": 36450.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 36550.0
+  },
+  {
+    "word": "Rabbit",
+    "start_time_ms": 36562.5,
+    "duration_ms": 337.5,
+    "end_time_ms": 36900.0
+  },
+  {
+    "word": "say",
+    "start_time_ms": 36912.5,
+    "duration_ms": 212.5,
+    "end_time_ms": 37125.0
+  },
+  {
+    "word": "to",
+    "start_time_ms": 37137.5,
+    "duration_ms": 187.5,
+    "end_time_ms": 37325.0
+  },
+  {
+    "word": "itself",
+    "start_time_ms": 37337.5,
+    "duration_ms": 562.5,
+    "end_time_ms": 37900.0
+  },
+  {
+    "word": "Oh",
+    "start_time_ms": 38212.5,
+    "duration_ms": 200.0,
+    "end_time_ms": 38412.5
+  },
+  {
+    "word": "dear",
+    "start_time_ms": 38425.0,
+    "duration_ms": 475.0,
+    "end_time_ms": 38900.0
+  },
+  {
+    "word": "Oh",
+    "start_time_ms": 39300.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 39425.0
+  },
+  {
+    "word": "dear",
+    "start_time_ms": 39437.5,
+    "duration_ms": 425.0,
+    "end_time_ms": 39862.5
+  },
+  {
+    "word": "I",
+    "start_time_ms": 40275.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 40387.5
+  },
+  {
+    "word": "shall",
+    "start_time_ms": 40400.0,
+    "duration_ms": 250.0,
+    "end_time_ms": 40650.0
+  },
+  {
+    "word": "be",
+    "start_time_ms": 40662.5,
+    "duration_ms": 162.5,
+    "end_time_ms": 40825.0
+  },
+  {
+    "word": "late",
+    "start_time_ms": 40837.5,
+    "duration_ms": 475.0,
+    "end_time_ms": 41312.5
+  },
+  {
+    "word": "when",
+    "start_time_ms": 41812.5,
+    "duration_ms": 0.0,
+    "end_time_ms": 41812.5
+  },
+  {
+    "word": "she",
+    "start_time_ms": 41887.5,
+    "duration_ms": 187.5,
+    "end_time_ms": 42075.0
+  },
+  {
+    "word": "thought",
+    "start_time_ms": 42087.5,
+    "duration_ms": 212.5,
+    "end_time_ms": 42300.0
+  },
+  {
+    "word": "it",
+    "start_time_ms": 42312.5,
+    "duration_ms": 112.5,
+    "end_time_ms": 42425.0
+  },
+  {
+    "word": "over",
+    "start_time_ms": 42437.5,
+    "duration_ms": 275.0,
+    "end_time_ms": 42712.5
+  },
+  {
+    "word": "afterwards",
+    "start_time_ms": 42725.0,
+    "duration_ms": 612.5,
+    "end_time_ms": 43337.5
+  },
+  {
+    "word": "it",
+    "start_time_ms": 43362.5,
+    "duration_ms": 150.0,
+    "end_time_ms": 43512.5
+  },
+  {
+    "word": "occurred",
+    "start_time_ms": 43525.0,
+    "duration_ms": 337.5,
+    "end_time_ms": 43862.5
+  },
+  {
+    "word": "to",
+    "start_time_ms": 43875.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 43975.0
+  },
+  {
+    "word": "her",
+    "start_time_ms": 43987.5,
+    "duration_ms": 175.0,
+    "end_time_ms": 44162.5
+  },
+  {
+    "word": "that",
+    "start_time_ms": 44175.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 44300.0
+  },
+  {
+    "word": "she",
+    "start_time_ms": 44312.5,
+    "duration_ms": 200.0,
+    "end_time_ms": 44512.5
+  },
+  {
+    "word": "ought",
+    "start_time_ms": 44525.0,
+    "duration_ms": 162.5,
+    "end_time_ms": 44687.5
+  },
+  {
+    "word": "to",
+    "start_time_ms": 44700.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 44800.0
+  },
+  {
+    "word": "have",
+    "start_time_ms": 44812.5,
+    "duration_ms": 162.5,
+    "end_time_ms": 44975.0
+  },
+  {
+    "word": "wondered",
+    "start_time_ms": 44987.5,
+    "duration_ms": 325.0,
+    "end_time_ms": 45312.5
+  },
+  {
+    "word": "at",
+    "start_time_ms": 45325.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 45450.0
+  },
+  {
+    "word": "this",
+    "start_time_ms": 45462.5,
+    "duration_ms": 337.5,
+    "end_time_ms": 45800.0
+  },
+  {
+    "word": "but",
+    "start_time_ms": 46050.0,
+    "duration_ms": 162.5,
+    "end_time_ms": 46212.5
+  },
+  {
+    "word": "at",
+    "start_time_ms": 46225.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 46337.5
+  },
+  {
+    "word": "the",
+    "start_time_ms": 46350.0,
+    "duration_ms": 75.0,
+    "end_time_ms": 46425.0
+  },
+  {
+    "word": "time",
+    "start_time_ms": 46437.5,
+    "duration_ms": 287.5,
+    "end_time_ms": 46725.0
+  },
+  {
+    "word": "it",
+    "start_time_ms": 46737.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 46837.5
+  },
+  {
+    "word": "all",
+    "start_time_ms": 46850.0,
+    "duration_ms": 150.0,
+    "end_time_ms": 47000.0
+  },
+  {
+    "word": "seemed",
+    "start_time_ms": 47012.5,
+    "duration_ms": 300.0,
+    "end_time_ms": 47312.5
+  },
+  {
+    "word": "quite",
+    "start_time_ms": 47325.0,
+    "duration_ms": 287.5,
+    "end_time_ms": 47612.5
+  },
+  {
+    "word": "natural",
+    "start_time_ms": 47625.0,
+    "duration_ms": 600.0,
+    "end_time_ms": 48225.0
+  },
+  {
+    "word": "but",
+    "start_time_ms": 48550.0,
+    "duration_ms": 187.5,
+    "end_time_ms": 48737.5
+  },
+  {
+    "word": "when",
+    "start_time_ms": 48750.0,
+    "duration_ms": 150.0,
+    "end_time_ms": 48900.0
+  },
+  {
+    "word": "the",
+    "start_time_ms": 48912.5,
+    "duration_ms": 75.0,
+    "end_time_ms": 48987.5
+  },
+  {
+    "word": "Rabbit",
+    "start_time_ms": 49000.0,
+    "duration_ms": 337.5,
+    "end_time_ms": 49337.5
+  },
+  {
+    "word": "actually",
+    "start_time_ms": 49350.0,
+    "duration_ms": 387.5,
+    "end_time_ms": 49737.5
+  },
+  {
+    "word": "TOOK",
+    "start_time_ms": 49750.0,
+    "duration_ms": 200.0,
+    "end_time_ms": 49950.0
+  },
+  {
+    "word": "A",
+    "start_time_ms": 49962.5,
+    "duration_ms": 75.0,
+    "end_time_ms": 50037.5
+  },
+  {
+    "word": "WATCH",
+    "start_time_ms": 50050.0,
+    "duration_ms": 300.0,
+    "end_time_ms": 50350.0
+  },
+  {
+    "word": "OUT",
+    "start_time_ms": 50362.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 50462.5
+  },
+  {
+    "word": "OF",
+    "start_time_ms": 50475.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 50575.0
+  },
+  {
+    "word": "ITS",
+    "start_time_ms": 50587.5,
+    "duration_ms": 425.0,
+    "end_time_ms": 51012.5
+  },
+  {
+    "word": "WAISTCOAT-POCKET",
+    "start_time_ms": 51025.0,
+    "duration_ms": 937.5,
+    "end_time_ms": 51962.5
+  },
+  {
+    "word": "and",
+    "start_time_ms": 52150.0,
+    "duration_ms": 212.5,
+    "end_time_ms": 52362.5
+  },
+  {
+    "word": "looked",
+    "start_time_ms": 52375.0,
+    "duration_ms": 262.5,
+    "end_time_ms": 52637.5
+  },
+  {
+    "word": "at",
+    "start_time_ms": 52650.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 52775.0
+  },
+  {
+    "word": "it",
+    "start_time_ms": 52787.5,
+    "duration_ms": 212.5,
+    "end_time_ms": 53000.0
+  },
+  {
+    "word": "and",
+    "start_time_ms": 53162.5,
+    "duration_ms": 175.0,
+    "end_time_ms": 53337.5
+  },
+  {
+    "word": "then",
+    "start_time_ms": 53350.0,
+    "duration_ms": 150.0,
+    "end_time_ms": 53500.0
+  },
+  {
+    "word": "hurried",
+    "start_time_ms": 53512.5,
+    "duration_ms": 337.5,
+    "end_time_ms": 53850.0
+  },
+  {
+    "word": "on",
+    "start_time_ms": 53862.5,
+    "duration_ms": 275.0,
+    "end_time_ms": 54137.5
+  },
+  {
+    "word": "Alice",
+    "start_time_ms": 54162.5,
+    "duration_ms": 325.0,
+    "end_time_ms": 54487.5
+  },
+  {
+    "word": "started",
+    "start_time_ms": 54500.0,
+    "duration_ms": 375.0,
+    "end_time_ms": 54875.0
+  },
+  {
+    "word": "to",
+    "start_time_ms": 54887.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 54987.5
+  },
+  {
+    "word": "her",
+    "start_time_ms": 55000.0,
+    "duration_ms": 175.0,
+    "end_time_ms": 55175.0
+  },
+  {
+    "word": "feet",
+    "start_time_ms": 55187.5,
+    "duration_ms": 400.0,
+    "end_time_ms": 55587.5
+  },
+  {
+    "word": "for",
+    "start_time_ms": 55825.0,
+    "duration_ms": 187.5,
+    "end_time_ms": 56012.5
+  },
+  {
+    "word": "it",
+    "start_time_ms": 56025.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 56125.0
+  },
+  {
+    "word": "flashed",
+    "start_time_ms": 56137.5,
+    "duration_ms": 375.0,
+    "end_time_ms": 56512.5
+  },
+  {
+    "word": "across",
+    "start_time_ms": 56525.0,
+    "duration_ms": 325.0,
+    "end_time_ms": 56850.0
+  },
+  {
+    "word": "her",
+    "start_time_ms": 56862.5,
+    "duration_ms": 112.5,
+    "end_time_ms": 56975.0
+  },
+  {
+    "word": "mind",
+    "start_time_ms": 56987.5,
+    "duration_ms": 262.5,
+    "end_time_ms": 57250.0
+  },
+  {
+    "word": "that",
+    "start_time_ms": 57262.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 57362.5
+  },
+  {
+    "word": "she",
+    "start_time_ms": 57375.0,
+    "duration_ms": 162.5,
+    "end_time_ms": 57537.5
+  },
+  {
+    "word": "had",
+    "start_time_ms": 57550.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 57675.0
+  },
+  {
+    "word": "never",
+    "start_time_ms": 57687.5,
+    "duration_ms": 262.5,
+    "end_time_ms": 57950.0
+  },
+  {
+    "word": "before",
+    "start_time_ms": 57962.5,
+    "duration_ms": 325.0,
+    "end_time_ms": 58287.5
+  },
+  {
+    "word": "seen",
+    "start_time_ms": 58300.0,
+    "duration_ms": 212.5,
+    "end_time_ms": 58512.5
+  },
+  {
+    "word": "a",
+    "start_time_ms": 58525.0,
+    "duration_ms": 62.5,
+    "end_time_ms": 58587.5
+  },
+  {
+    "word": "rabbit",
+    "start_time_ms": 58600.0,
+    "duration_ms": 362.5,
+    "end_time_ms": 58962.5
+  },
+  {
+    "word": "with",
+    "start_time_ms": 58975.0,
+    "duration_ms": 162.5,
+    "end_time_ms": 59137.5
+  },
+  {
+    "word": "either",
+    "start_time_ms": 59150.0,
+    "duration_ms": 225.0,
+    "end_time_ms": 59375.0
+  },
+  {
+    "word": "a",
+    "start_time_ms": 59387.5,
+    "duration_ms": 87.5,
+    "end_time_ms": 59475.0
+  },
+  {
+    "word": "waistcoat-pocket",
+    "start_time_ms": 59487.5,
+    "duration_ms": 937.5,
+    "end_time_ms": 60425.0
+  },
+  {
+    "word": "or",
+    "start_time_ms": 60700.0,
+    "duration_ms": 162.5,
+    "end_time_ms": 60862.5
+  },
+  {
+    "word": "a",
+    "start_time_ms": 60875.0,
+    "duration_ms": 75.0,
+    "end_time_ms": 60950.0
+  },
+  {
+    "word": "watch",
+    "start_time_ms": 60962.5,
+    "duration_ms": 287.5,
+    "end_time_ms": 61250.0
+  },
+  {
+    "word": "to",
+    "start_time_ms": 61262.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 61362.5
+  },
+  {
+    "word": "take",
+    "start_time_ms": 61375.0,
+    "duration_ms": 250.0,
+    "end_time_ms": 61625.0
+  },
+  {
+    "word": "out",
+    "start_time_ms": 61637.5,
+    "duration_ms": 137.5,
+    "end_time_ms": 61775.0
+  },
+  {
+    "word": "of",
+    "start_time_ms": 61787.5,
+    "duration_ms": 100.0,
+    "end_time_ms": 61887.5
+  },
+  {
+    "word": "it",
+    "start_time_ms": 61900.0,
+    "duration_ms": 212.5,
+    "end_time_ms": 62112.5
+  },
+  {
+    "word": "and",
+    "start_time_ms": 62262.5,
+    "duration_ms": 225.0,
+    "end_time_ms": 62487.5
+  },
+  {
+    "word": "burning",
+    "start_time_ms": 62500.0,
+    "duration_ms": 312.5,
+    "end_time_ms": 62812.5
+  },
+  {
+    "word": "with",
+    "start_time_ms": 62825.0,
+    "duration_ms": 125.0,
+    "end_time_ms": 62950.0
+  },
+  {
+    "word": "curiosity",
+    "start_time_ms": 62962.5,
+    "duration_ms": 850.0,
+    "end_time_ms": 63812.5
+  },
+  {
+    "word": "she",
+    "start_time_ms": 64075.0,
+    "duration_ms": 175.0,
+    "end_time_ms": 64250.0
+  },
+  {
+    "word": "ran",
+    "start_time_ms": 64262.5,
+    "duration_ms": 225.0,
+    "end_time_ms": 64487.5
+  },
+  {
+    "word": "across",
+    "start_time_ms": 64500.0,
+    "duration_ms": 412.5,
+    "end_time_ms": 64912.5
+  },
+  {
+    "word": "the",
+    "start_time_ms": 64925.0,
+    "duration_ms": 100.0,
+    "end_time_ms": 65025.0
+  },
+  {
+    "word": "field",
+    "start_time_ms": 65037.5,
+    "duration_ms": 337.5,
+    "end_time_ms": 65375.0
+  },
+  {
+    "word": "after",
+    "start_time_ms": 65387.5,
+    "duration_ms": 362.5,
+    "end_time_ms": 65750.0
+  },
+  {
+    "word": "it",
+    "start_time_ms": 65762.5,
+    "duration_ms": 212.5,
+    "end_time_ms": 65975.0
+  },
+  {
+    "word": "and",
+    "start_time_ms": 66187.5,
+    "duration_ms": 175.0,
+    "end_time_ms": 66362.5
+  },
+  {
+    "word": "fortunately",
+    "start_time_ms": 66375.0,
+    "duration_ms": 750.0,
+    "end_time_ms": 67125.0
+  },
+  {
+    "word": "was",
+    "start_time_ms": 67137.5,
+    "duration_ms": 475.0,
+    "end_time_ms": 67612.5
+  },
+  {
+    "word": "just",
+    "start_time_ms": 68012.5,
+    "duration_ms": 325.0,
+    "end_time_ms": 68337.5
+  },
+  {
+    "word": "in",
+    "start_time_ms": 68350.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 68462.5
+  },
+  {
+    "word": "time",
+    "start_time_ms": 68475.0,
+    "duration_ms": 312.5,
+    "end_time_ms": 68787.5
+  },
+  {
+    "word": "to",
+    "start_time_ms": 68800.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 68912.5
+  },
+  {
+    "word": "see",
+    "start_time_ms": 68925.0,
+    "duration_ms": 212.5,
+    "end_time_ms": 69137.5
+  },
+  {
+    "word": "it",
+    "start_time_ms": 69150.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 69262.5
+  },
+  {
+    "word": "pop",
+    "start_time_ms": 69275.0,
+    "duration_ms": 287.5,
+    "end_time_ms": 69562.5
+  },
+  {
+    "word": "down",
+    "start_time_ms": 69575.0,
+    "duration_ms": 212.5,
+    "end_time_ms": 69787.5
+  },
+  {
+    "word": "a",
+    "start_time_ms": 69800.0,
+    "duration_ms": 75.0,
+    "end_time_ms": 69875.0
+  },
+  {
+    "word": "large",
+    "start_time_ms": 69887.5,
+    "duration_ms": 350.0,
+    "end_time_ms": 70237.5
+  },
+  {
+    "word": "rabbit-hole",
+    "start_time_ms": 70250.0,
+    "duration_ms": 587.5,
+    "end_time_ms": 70837.5
+  },
+  {
+    "word": "under",
+    "start_time_ms": 70850.0,
+    "duration_ms": 212.5,
+    "end_time_ms": 71062.5
+  },
+  {
+    "word": "the",
+    "start_time_ms": 71075.0,
+    "duration_ms": 112.5,
+    "end_time_ms": 71187.5
+  },
+  {
+    "word": "hedge",
+    "start_time_ms": 71200.0,
+    "duration_ms": 512.5,
+    "end_time_ms": 71712.5
+  }
+]
